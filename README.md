@@ -32,11 +32,13 @@ LINFAST utilise les outils suivants :
 Avertissement
 >LINFAST est un script de preuve de concept et ne doit être utilisé que dans un environnement contrôlé et autorisé. Les auteurs des scripts ne sont pas responsables de >l'utilisation abusive ou illégale de l'outil.
 
+  
 Lien du Git Linpeas : https://github.com/carlospolop/PEASS-ng/
 --------------------------------------------------------------------------------------
   
 
-LINFAST :
+  
+  
 LINFAST is a shell script to facilitate the download and execution of the latest version of the security auditing tool linpeas.sh on a target machine.
 Yes, it's for the lazy ones indeed! :D
   
