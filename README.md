@@ -1,6 +1,8 @@
 LINFAST est un script shell pour faciliter le téléchargement de la dernière version de l'outil d'audit de sécurité linpeas.sh et son exécution simplifié sur une machine cible.
-
 Oui c'est pour les fainéants exactement ! :D 
+
+(**Une version est maintenant prête pour WinPEAS, même concept mais avec WinFast**)
+
 
 ![til](https://github.com/Frozenka/linfast/blob/dd63823495bd278ef91ab498b112e085041aa882/La%20commande%20est%20automatiquement%20copi%C3%A9e%20dans%20votre%20presse-papiers..gif)
 
